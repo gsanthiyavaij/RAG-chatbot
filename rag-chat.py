@@ -10,7 +10,7 @@ import time
 
 # OpenRouter.ai API config
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_KEY = "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"
+API_KEY = "Your API key here"
 MODEL = "meta-llama/llama-3-8b-instruct"
 
 # Initialize TTS engine
@@ -183,3 +183,4 @@ thread = threading.Thread(target=run_async_loop)
 thread.start()
 
 window.mainloop()
+
